@@ -1,0 +1,6 @@
+/* Will default to 1 column for small devices/screens */
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr !important;
+  }
+}
