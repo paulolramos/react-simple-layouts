@@ -1,7 +1,7 @@
 {
   "name": "react-simple-layouts",
   "version": "1.0.0",
-  "description": "create simple layouts using containers and grids",
+  "description": "create simple responsive layouts using containers and grids",
   "author": "paulolramos",
   "license": "MIT",
   "repository": "paulolramos/react-simple-layouts",
