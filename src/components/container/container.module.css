@@ -1,0 +1,26 @@
+/* TOP & BOTTOM PADDING */
+.container {
+  display: block;
+}
+
+/* 
+SIDE PADDING of (.inner) WILL ADJUST RELATIVE TO PARENT (.container):
+  .container has left/right padding default value of 5%, 
+  but can be overridden by passing initialSides prop to
+  Container component.
+*/
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .inner {
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .inner {
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+}
