@@ -13,18 +13,38 @@ npm install --save react-simple-layouts
 ## Usage
 
 ```tsx
-import * as React from 'react'
+import * as React from "react";
+import { Container, Grid } from "react-simple-layouts";
 
-import MyComponent from 'react-simple-layouts'
-
-class Example extends React.Component {
-  render () {
-    return (
-      <MyComponent />
-    )
-  }
-}
+export const Example = () => (
+    <Container
+      bgColor="black"
+      textColor="white"
+      top="55px"
+      bottom="35px"
+      initialSides="10%"
+    >
+      <Grid columns="3" gap="20px" rows="1">
+        { Your code here}
+      </Grid>
+    </Container>
+  );
 ```
+
+## Prop Defaults
+
+### Container
+
+- bgColor = "#fff",
+- textColor = "#000",
+- top = "1.2rem",
+- bottom = "1.2rem",
+- initialSides = "5%",
+
+### Grid
+
+- rows = "1",
+- gap = "10px",
 
 ## License
 
